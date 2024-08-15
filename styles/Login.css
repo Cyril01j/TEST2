@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    padding-left: 50px;
+    padding-right: 28px;
+    align-items: center;
+}
+
+nav ul li {
+    font-family: "Oswald", sans-serif;
+    list-style-type: none;
+    margin: 0 4px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    padding: 10px;
+    padding-left: 2px;
+}
+
+.left {
+    font-family: "Oswald", sans-serif;     
+    color: white;
+    font-size: 1.5rem;
+    padding: 14px;
+    padding-left: 80px;
+    display: flex;
+}
+
+img {
+    height: 30px;
+    padding-top: 14px;
+    padding-left: 10px;
+}
+
+.search {
+    display: flex;
+    margin: 10px;
+    margin-left: 229px;
+}
+
+.search form {
+    display: flex;
+    margin: 0px;
+}
+
+.search input {
+    padding: 10px;
+    width: 520px;
+    color: black;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.user-login {
+    position: fixed;
+    top: 22%;
+    left: 34%;
+    width: 100%;
+    max-width: 358px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: black;
+    color: white;
+    font-family: "Oswald", sans-serif;     
+    font-size: 1.25rem;
+    border-radius: 15px;
+
+}
+.user-login h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.user-login .input-box{
+    width: 350px;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+
+}
+::placeholder{
+    padding-left: 5px;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    text-indent: 2px;
+
+}
+.forgot a{
+    color: white;
+}
+.forgot a:hover{
+    color: grey;
+}
+.btn{
+    width: 100px;
+        height: 38px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 120px;
+        border-radius: 15px;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+        border: none;
+        background-color: lightgray;
+}
+.btn:hover{
+    color: grey;
+}

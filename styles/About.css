@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    color: white;
+    padding-left:50px;
+    padding-right: 28px;
+    align-items: center;
+}
+
+nav ul li{
+    font-family: "Oswald", sans-serif;
+    list-style-type: none;
+    margin: 0 4px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.material-symbols-outlined{
+    padding: 10px;
+    padding-left: 2px;
+}
+
+.left{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size:1.5rem ;
+    padding: 14px;
+    padding-left: 80px;
+    display: flex;
+}
+
+img{
+    height: 30px;
+    padding-top: 14px;
+    padding-left: 10px;
+}
+.search{
+    display: flex;
+    margin: 10px;
+    margin-left: 224px;
+}
+.search form{
+    display: flex;
+    margin: 0px;
+}
+.search input{
+    padding: 10px;
+    width: 520px;
+    color: black;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+}
+
+.intro{
+    padding: 5px;
+    padding-top: 135px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 1.36rem;
+
+}
